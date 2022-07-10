@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: rgb(0,0,0,0.7)url('img/students.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+ul {
+    background: rgb(0,0,0,0.25);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-blend-mode: darken;
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    display:inline-block;
+    padding: 30px 30px;
+    color:rgb(255, 253, 253);
+    text-decoration: none;
+}
+    
+
+span {
+    font-size: 17px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color:floralwhite;
+}
+
+
+h1 {
+    font-family: 'Cinzel', serif;
+    text-align : center;
+    color: rgba(253, 253, 253,0.7);
+    padding : 5rem;
+}
+
+.subtext {
+    text-align : center;
+    text-decoration: underline;
+    font-family:sans-serif;
+    color: white;
+    padding : 1px;
+    margin-right: 60% ;
+}
+.info {
+    background: rgb(0,0,0,0.25);
+    background-blend-mode: darken;
+    width: 300px;
+    font-family: arial;
+    color: rgba(253, 253, 253,0.7);
+    padding : 2rem;
+    margin-left: 180px ; 
+}
+ p{
+    background-color: rgb(255, 106, 0);
+    padding: 14px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 15rem;
+ }
+
+ a{
+    text-decoration: none;
+    color:#fff;
+    font-family: sans-serif;
+ }
+ a:hover{
+    color :rgb(0, 0, 0);
+ }
